@@ -14,7 +14,13 @@ header{
 }
 
 .logo{
-  display: flex;
+  display: inline-flex;
+  border: 1px solid black;
+  width: 630px;
+}
+
+.nav{
+  display: inline-flex;
 }
 
 .logo img{
@@ -57,26 +63,49 @@ header a{
   border: 1px solid black;
 }
 
-.lead-story{
+.column.small{
+  width: 240px;
   border: 1px solid black;
 }
-.sub-story{
-  border: 1px solid black;
+
+.image{
+  display: flex;
+  color: white;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px
+}
+
+.image.main{
+  display: flex;
+  background-image: url(./images/champagne.png);
+  font-family: 40px;
+}
+
+.image.story2{
+  display: flex;
+  background-image: url(./images/womantree.png);
+}
+
+.image.story3{
+  display: flex;
+  background-image: url(./images/hipster.png);
+}
+
+.image.story4{
+  display: flex;
+  background-image: url(./images/catceo.png);
 }
 
 .header{
   font-weight: bold;
   padding-top: 20px;
 }
-.image.header{
-  border: 1px solid black;
-  font-weight: bold;
-  color: black;
-  font-size: 30px;
-  padding-top: 0px;
-}
 
 .narrative{
   padding-top: 20px;
   padding-bottom: 20px;
+  font-family: Georgia;
+  font-size: 17px
+  color: black;
 }
