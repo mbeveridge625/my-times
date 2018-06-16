@@ -15,7 +15,6 @@ header{
 
 .logo{
   display: inline-flex;
-  border: 1px solid black;
   width: 630px;
 }
 
@@ -47,7 +46,7 @@ header a{
 /* Main styling */
 .content{
   display: flex;
-  padding-top: 200px;
+  padding-top: 100px;
   width: 1200px;
 }
 
@@ -73,6 +72,8 @@ header a{
   color: white;
   font-family: Georgia;
   font-weight: bold;
+  width: auto;
+  height: 200px;
   font-size: 30px
 }
 
@@ -85,21 +86,25 @@ header a{
 .image.story2{
   display: flex;
   background-image: url(./images/womantree.png);
+  text-align: center;
 }
 
 .image.story3{
   display: flex;
   background-image: url(./images/hipster.png);
+  text-align: center;
 }
 
 .image.story4{
   display: flex;
   background-image: url(./images/catceo.png);
+  text-align: center;
 }
 
 .header{
   font-weight: bold;
   padding-top: 20px;
+  font-size: 30px;
 }
 
 .narrative{
