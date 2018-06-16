@@ -9,6 +9,8 @@ header{
   border: 1px solid black;
   align-items: center;
   position: fixed;
+  flex-grow: 1;
+  z-index: 1;
 }
 
 .logo{
@@ -30,4 +32,51 @@ header span{
   display: inline-flex;
   justify-content: flex-end;
   padding-left: 20px;
+}
+
+header a{
+  color: black;
+}
+
+/* Main styling */
+.content{
+  display: flex;
+  padding-top: 200px;
+  width: 1200px;
+}
+
+.column{
+  margin-right: 20px;
+}
+.column.large{
+  width: 630px;
+}
+
+.column.medium{
+  width: 300px;
+  border: 1px solid black;
+}
+
+.lead-story{
+  border: 1px solid black;
+}
+.sub-story{
+  border: 1px solid black;
+}
+
+.header{
+  font-weight: bold;
+  padding-top: 20px;
+}
+.image.header{
+  border: 1px solid black;
+  font-weight: bold;
+  color: black;
+  font-size: 30px;
+  padding-top: 0px;
+}
+
+.narrative{
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
